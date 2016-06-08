@@ -1,0 +1,32 @@
+{
+  "name": "require-symlink",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "require-link": "./bin/link.js",
+    "require-unlink": "./bin/unlink.js"
+  },
+  "keywords": [
+    "symlink",
+    "require",
+    "path",
+    "link",
+    "module"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/garthenweb/distillify"
+  },
+  "author": "Jannick Garthen <jannick.garthen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garthenweb/distillify/issues"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
