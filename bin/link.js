@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-const directories = require('../package.json')['require-symlinks'];
+const path = require('path');
+const directories = require(path.join(process.cwd(), 'package.json'))['require-symlinks'];
 const link = require('../lib/link');
 link(directories);
