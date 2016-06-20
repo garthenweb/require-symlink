@@ -2,7 +2,10 @@
 
 Creates symlinks within the node_modules directory to bypass annoying relative require paths to access deep nested files or folders.
 
-Instead of resolving a relative path like `require('../../../../config')` with require-symlink its possible to create a symlink to this folder `require('symlink')`.
+Instead of resolving a relative path like `require('../../../../config')` with require-symlink its possible to automatically create a symlink to this folder `require('symlink')`.
+
+See [Better local require() paths for Node.js
+](https://gist.github.com/branneman/8048520#1-the-symlink) for more information behind this idea.
 
 ## Installation
 
@@ -57,11 +60,11 @@ With npm v3 its not predictable which folders will live inside your node_modules
 
 You may use a prefix that is uncommon for npm dependencies to be sure to not have any conflicts.
 
-### @ prefix
+### @ Prefix
 
 The @ prefix is used by npm and will result in unintentional behavior. You should use another prefix, for example the $ sign.
 
-### Windows usage
+### Windows Usage
 
 The library is working fine on windows. It is just required to execute the script with administration rights!
 
