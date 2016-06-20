@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/garthenweb/distillify"
+    "url": "git://github.com/garthenweb/require-symlink"
   },
   "author": "Jannick Garthen <jannick.garthen@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/garthenweb/distillify/issues"
+    "url": "https://github.com/garthenweb/require-symlink/issues"
   },
   "engines": {
     "node": ">=6.0.0"
