@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "require-link": "./bin/link.js",
-    "require-unlink": "./bin/unlink.js"
+    "require-link": "./bin/link.js"
   },
   "keywords": [
     "symlink",
