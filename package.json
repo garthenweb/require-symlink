@@ -1,6 +1,6 @@
 {
   "name": "require-symlink",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Bypass annoying relative require paths to access deep nested files or folders.",
   "main": "index.js",
   "bin": {
