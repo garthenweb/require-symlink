@@ -10,7 +10,7 @@ See [Better local require() paths for Node.js
 ## Installation
 
 ``` bash
-npm install --save-dev bubleify
+npm install --save-dev require-symlink
 ```
 
 ## Usage
