@@ -51,6 +51,20 @@ Please also not that `preshrinkwrap` and `postshrinkwrap` hooks are only availab
 }
 ```
 
+### Dependency Conflicts
+
+With npm v3 its not predictable which folders will live inside your node_modules folder. As require-symlink will add a symlink into this folder it is required to not have a dependency with the same name as the symlink defined.
+
+You may use a prefix that is uncommon for npm dependencies to be sure to not have any conflicts.
+
+### @ prefix
+
+The @ prefix is used by npm and will result in unintentional behavior. You should use another prefix, for example the $ sign.
+
+### Windows usage
+
+The library is working fine on windows. It is just required to execute the script with administration rights!
+
 ## License
 
 Licensed under the [MIT License](https://opensource.org/licenses/mit-license.php).
